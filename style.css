@@ -3,3 +3,15 @@ body{
     padding: 0;
     text-decoration: none;
 }
+.header{
+    position: relative;
+    
+}
+.navbar{
+    position: absolute;
+    width: 90%;
+    margin: 0 2em 0 2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
