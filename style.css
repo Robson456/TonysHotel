@@ -2,8 +2,6 @@
     font-family: GreatVibes;
     src: url(./fonts/GreatVibes-Regular.ttf);
 }
-
-
 body{
     
     margin: 0;
@@ -14,13 +12,30 @@ body{
 .header{
     position: relative;
     height: 75%;
-    
+    color: white;
+}
+h1{
+    font-size: 4em;
+}
+.btn{
+    color: white;
+    text-decoration: none;
+    background: transparent;
+    border: none;
+    font-size: 1.5em;
+    font-weight: bold;
+    font-family:'Times New Roman', Times, serif;
+    cursor: pointer;
+}
+h3{
+    color: black;
 }
 p{
     text-align: center;
     margin: 10vh 0 0 0;
     font-size: 3em;
     font-family: GreatVibes;
+    color: black;
 }
 .navbar{
     display: flex;
